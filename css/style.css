@@ -1,0 +1,141 @@
+*   {
+    margin: 0;
+    padding: 0;
+}
+.main-wrap  {
+    margin: auto;
+    width: 439px;
+    height: 328px;
+    background: url("../img/bg.jpg") 0 0 no-repeat;
+    box-sizing: border-box;
+    padding: 50px 0 0 33px;
+}
+.croupier  {
+    background: url("../img/croupier.png") 0 0 no-repeat;
+    width: 69px;
+    height: 84px;
+    display: block;
+    margin: auto;
+}
+.table  {
+    background: url("../img/table.png");
+    width: 267px;
+    height: 143px;
+    margin: -34px auto;
+}
+.table__title  {
+    text-align: center;
+    padding: 20px 0 6px;
+    color: #b1d3b1;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+.cardbox  {
+    margin: auto;
+    text-align: center;
+}
+.card  {
+    display: inline-block;
+    width: 28px;
+    height: 42px;
+    margin-right: 2px;
+    background-color: #ffffff;
+    padding-left: 4px;
+    box-sizing: border-box;
+    text-align: left;
+    vertical-align: top;
+    overflow: hidden;
+    position: relative;
+    border-radius: 2px;
+}
+.card--last  {
+    margin-right: 0;
+}
+.card__value  {
+    display: inline-block;
+}
+.card__num  {
+    font-size: 14px;
+}
+.card__suit--thumb  {
+    background: url("../img/suit-thumb.png") no-repeat;
+    background-position-y: -22px;
+    width: 11px;
+    height: 11px;
+    display: block;
+    margin: -3px 0 0 -3px;
+}
+.card__suit--thumb-mod  {
+    background: url("../img/suit-thumb.png") no-repeat;
+    background-position-y: -11px;
+}
+.card__suit--big   {
+    background: url("../img/suit.png") no-repeat;
+    background-position-y: -40px;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    position: absolute;
+    top: 11px;
+    left: 14px;
+
+}
+.card__suit--big-mod  {
+    background: url("../img/suit.png") no-repeat;
+    background-position-y: -22px;
+}
+.card__suit--big-duplicate  {
+    top: 35px;
+}
+.card__num--second  {
+    color: #ff0000;
+}
+.card__num--fourth  {
+    color: #ff0000;
+}
+.result  {
+    background: url("../img/result.png") 0 0 no-repeat;
+    width: 106px;
+    height: 84px;
+    display: inline-block;
+    margin: -3px 0 0 32px;
+    position: relative;
+}
+.result__card  {
+    position: absolute;
+    top: 12px;
+    left: 41px;
+    transform: rotate(-7deg);
+    width: 30px;
+    border: 1px solid #e6dfcc;
+    border-radius: 3px;
+}
+.result__card--right  {
+    left: 62px;
+    transform: rotate(19deg);
+}
+.wins  {
+    position: absolute;
+    display: inline-block;
+    background: url("../img/wins.png") 0 0 no-repeat;
+    width: 46px;
+    height: 17px;
+    bottom: 18px;
+    right: 18px;
+}
+.twelve  {
+    position: absolute;
+    display: inline-block;
+    background: url("../img/12.png");
+    width: 22px;
+    height: 22px;
+    bottom: 6px;
+    left: 25px;
+}
+.result__combination  {
+    color: #ff0000;
+    position: absolute;
+    right: -10px;
+    bottom: 0;
+}
